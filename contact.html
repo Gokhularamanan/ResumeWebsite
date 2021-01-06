@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/Style.css" />
+</head>
+<body>
+    <nav>
+        <a href="home.html">HOME</a>
+        <a href="academics.html">ACADEMICS</a>
+        <a href="skill.html">SKILL SET & PROJECT</a>
+        <a href="activities.html">CO & EXTRA-CURRICULAR ACTIVITIES</a>
+        <a href="profile.html">PROFILE</a>
+        <a href="contact.html">CONTACT</a>
+    </nav>
+    <form name ="form" onsubmit="return validate()">
+        <table class="form">
+            <tr id="form-field">
+                <td>First Name  </td>
+                <td><input type="text" class="firstname" name="firstname" placeholder="first name"  /></td>
+            </tr>
+            <tr id="form-field">
+                <td> Last Name  </td>
+                <td><input type="text" class="lastname" name="lastname" placeholder="last name"  /></td>
+            </tr>
+            <tr id="form-field">
+                <td>E-mail  </td>
+                <td><input type="email" class="email" name="email" placeholder="email" /></td>
+            </tr>
+            <tr id="form-field">
+                <td> Message </td>
+                <td><textarea name="message" class="message" cols=20 rows=3 placeholder="Message...."></textarea><br /></td>
+            </tr>
+            <tr id="form-field">
+                <td>&nbsp;</td>
+                <td><input class="submit" href="#"   type="submit" value="submit" /></td>
+            </tr>
+        </table>
+    </form>
+    <script src="JS/Script.js"></script>
+</body>
+</html>

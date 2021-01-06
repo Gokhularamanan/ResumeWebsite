@@ -1,0 +1,421 @@
+﻿body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    padding: 0;
+    margin: 0;
+    font-family: Roboto Condensed;
+}
+
+.email-link {
+    color: white;
+}
+
+nav {
+    background-color: rgba(0,0,0, 0.4);
+    padding: 20px;
+    padding-left: 200px;
+    font-weight: bold;
+}
+
+nav a:link, nav a:visited {
+    padding-left: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover, nav a:active {
+    color: #345f6e;
+}
+
+img {
+    position: absolute;
+    left: 20%;
+    top: 28%;
+    height: 285px;
+    width: 285px;
+    overflow: hidden;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.home-con {
+    position: absolute;
+    left: 52%;
+    top: 38%;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.academics-table {
+    width: 68%;
+    margin: auto;
+}
+
+.academics-table th, .aca-row, .aca-data {
+    background-color: white;
+}
+
+.academics-table th {
+    text-align: center;
+    height: 60px;
+    width: auto;
+}
+
+.academics-table .aca-row {
+    height: 60px;
+    text-align: center;
+}
+
+.academics {
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
+    background-color: rgb(55, 126, 120);
+    color:white;
+    margin: 0% 10%;
+    margin-top: 3%;
+    width: 80%;
+    text-transform: uppercase;
+    cursor: pointer;
+    position:relative;
+}
+.academics:hover
+{
+    color:white;
+}
+
+
+.academics .aca-tooltip {
+    background-color: oldlace;
+    position: absolute;
+    z-index: 1;
+    border: 2px solid black;
+    padding: 2px;
+    font-size: 16px;
+    visibility: hidden;
+    width: 200px;
+    text-align: center;
+}
+
+.academics:hover .aca-tooltip {
+    visibility: visible;
+}
+
+.skill {
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
+    background-color: rgb(55, 126, 120);
+    width: 80%;
+    margin: 2% 10%;
+    position:relative;
+    text-transform: uppercase;
+    cursor: pointer;
+    color:black;
+}
+.skill:hover {
+    color: white;
+}
+
+.skill .ski-tooltip {
+    background-color: oldlace;
+    position: absolute;
+    z-index: 1;
+    border: 2px solid black;
+    padding: 2px;
+    font-size: 16px;
+    visibility: hidden;
+    width: 200px;
+}
+
+.skill:hover .ski-tooltip {
+    visibility: visible;
+}
+
+.bold-headings {
+    text-transform: uppercase;
+}
+
+.skill-content {
+    padding-left: 11%;
+    padding-bottom: -2%;
+    color: white;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.git-link {
+    color: floralwhite;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    margin-bottom: -9px;
+}
+
+.mini {
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
+    background-color: rgb(55, 126, 120);
+    width: 80%;
+    margin: 2% 10%;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+}
+
+.mini:hover {
+    color: white;
+}
+
+.mini .mini-tooltip {
+    background-color: oldlace;
+    position: absolute;
+    z-index: 1;
+    border: 2px solid black;
+    padding: 2px;
+    font-size: 16px;
+    visibility: hidden;
+    width: 200px;
+    text-align: center;
+}
+
+.mini:hover .mini-tooltip {
+    visibility: visible;
+}
+
+.mini-content {
+    color: white;
+    padding-left: 11%;
+    color: white;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.main {
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
+    background-color: rgb(55, 126, 120);
+    width: 80%;
+    margin: 2% 10%;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+}
+
+.main:hover {
+    color: white;
+}
+.main .main-tooltip {
+    background-color: oldlace;
+    position: absolute;
+    z-index: 1;
+    border: 2px solid black;
+    padding: 2px;
+    font-size: 16px;
+    visibility: hidden;
+    width: 200px;
+    text-align: center;
+}
+
+.main:hover .main-tooltip {
+    visibility: visible;
+}
+
+.main-content {
+    color: white;
+    padding-left: 11%;
+    color: white;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.cocurricular {
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
+    background-color: rgb(55, 126, 120);
+    width: 80%;
+    margin: 0% 10%;
+    margin-top: 2%;
+    text-transform: uppercase;
+    cursor: pointer;
+    position:relative;
+}
+.cocurricular:hover {
+    color: white;
+}
+.cocurricular .co-tooltip {
+    background-color: oldlace;
+    position: absolute;
+    z-index: 1;
+    border: 2px solid black;
+    padding: 2px;
+    font-size: 16px;
+    visibility: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.cocurricular:hover .co-tooltip {
+    visibility: visible;
+}
+
+.co-content {
+    color: white;
+    padding-left: 11%;
+    color: white;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.extracurricular {
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
+    background-color: rgb(55, 126, 120);
+    width: 80%;
+    margin: 0% 10%;
+    margin-top: 2%;
+    text-transform: uppercase;
+    cursor: pointer;
+    position:relative
+}
+.extracurricular:hover {
+    color: white;
+}
+
+.extracurricular .ex-tooltip {
+    background-color: oldlace;
+    position: absolute;
+    z-index: 1;
+    border: 2px solid black;
+    padding: 2px;
+    font-size: 16px;
+    visibility: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.extracurricular:hover .ex-tooltip {
+    visibility: visible;
+}
+
+.ex-content {
+    color: white;
+    padding-left: 11%;
+    padding-bottom: 2%;
+    color: white;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.personal {
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
+    background-color: rgb(55, 126, 120);
+    margin: 0% 10%;
+    width: 80%;
+    margin-top: 2%;
+    text-transform: uppercase;
+    cursor: pointer;
+    position:relative;
+}
+
+.personal:hover
+{
+    color:white;
+}
+
+.personal .per-tooltip {
+    background-color: oldlace;
+    position: absolute;
+    z-index: 1;
+    border: 2px solid black;
+    padding: 2px;
+    font-size: 16px;
+    visibility: hidden;
+    width: 200px;
+    text-align: center;
+}
+
+.personal:hover .per-tooltip {
+    visibility: visible;
+}
+
+.per-table {
+    width: 60%;
+    margin: auto;
+    margin-top: 2%;
+}
+.per-table .per-row, .per-data {
+    height: 40px;
+    width: 500px;
+    background-color: lightcyan;
+    text-transform: uppercase;
+    border: 2px solid white;
+    }
+
+.form {
+    text-transform: uppercase;
+    margin: 6% 20%;
+    color: white;
+    line-height: 120%;
+    border: 3px solid rgba(0,0,0, 0.4);
+    padding: 4% 20%;
+}
+
+#form-field {
+    line-height: 50px;
+    color: white;
+    font-weight: inherit;
+}
+
+.firstname {
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-left: 10%;
+    box-sizing: border-box;
+}
+
+#scene {
+    padding-left: 10%;
+}
+
+.lastname {
+    border-radius: 8px;
+    margin-left: 10%;
+    padding: 10px 14px;
+    box-sizing: border-box;
+}
+
+.email {
+    border-radius: 8px;
+    margin-left: 10%;
+    padding: 10px 14px;
+    box-sizing: border-box;
+}
+
+.message {
+    border-radius: 8px;
+    margin-left: 10%;
+    padding: 10px 14px;
+    box-sizing: border-box;
+}
+
+.submit {
+    background-color: snow;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 22px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 24px;
+}
